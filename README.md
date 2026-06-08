@@ -14,16 +14,16 @@ The project was originally created as a learning exercise and has been refactore
 
 ## Features
 
-- Real-time hand tracking
-- Gesture-based system volume control
-- Thumb and index finger distance measurement
-- Pinky-finger lock mechanism to prevent accidental volume changes
-- Live volume bar visualization
-- FPS display
-- Screenshot saving
-- Mock mode for testing without changing system volume
-- Clean modular Python structure
-- Beginner-friendly code organization
+* Real-time hand tracking
+* Gesture-based system volume control
+* Thumb and index finger distance measurement
+* Pinky-finger lock mechanism to prevent accidental volume changes
+* Live volume bar visualization
+* FPS display
+* Screenshot saving
+* Mock mode for testing without changing system volume
+* Clean modular Python structure
+* Beginner-friendly code organization
 
 ## How It Works
 
@@ -61,12 +61,12 @@ Volume-Hand-Control/
 
 ## Technologies Used
 
-- Python
-- OpenCV
-- MediaPipe
-- Pycaw
-- NumPy
-- Comtypes
+* Python
+* OpenCV
+* MediaPipe
+* Pycaw
+* NumPy
+* Comtypes
 
 ## Installation
 
@@ -125,46 +125,46 @@ python main.py --no-mirror
 
 Inside the OpenCV window:
 
-- Press `q` to quit
-- Press `s` to save a screenshot
+* Press `q` to quit
+* Press `s` to save a screenshot
 
 ## Gesture Controls
 
-- Move your thumb and index finger closer to lower the volume.
-- Move your thumb and index finger farther apart to increase the volume.
-- Lower your pinky finger to apply the selected volume.
-- Raise your pinky finger to pause volume changes.
+* Move your thumb and index finger closer to lower the volume.
+* Move your thumb and index finger farther apart to increase the volume.
+* Lower your pinky finger to apply the selected volume.
+* Raise your pinky finger to pause volume changes.
 
 ## Notes
 
-- System volume control works on Windows.
-- On other operating systems, use mock mode to test the computer vision interface.
-- Good lighting improves hand tracking accuracy.
-- Keep one hand clearly visible in front of the webcam.
+* System volume control works on Windows.
+* On other operating systems, use mock mode to test the computer vision interface.
+* Good lighting improves hand tracking accuracy.
+* Keep one hand clearly visible in front of the webcam.
 
 ## What I Learned
 
 Through this project, I practiced:
 
-- Real-time computer vision with OpenCV
-- Hand landmark detection with MediaPipe
-- Gesture-based interaction design
-- Mapping visual measurements to system actions
-- Windows audio control with Pycaw
-- Structuring Python code into reusable modules
-- Improving a learning project into a portfolio-ready repository
+* Real-time computer vision with OpenCV
+* Hand landmark detection with MediaPipe
+* Gesture-based interaction design
+* Mapping visual measurements to system actions
+* Windows audio control with Pycaw
+* Structuring Python code into reusable modules
+* Improving a learning project into a portfolio-ready repository
 
 ## Roadmap
 
 Planned improvements:
 
-- Add demo screenshots and GIF previews
-- Add calibration mode
-- Add mute/unmute gesture
-- Add left-hand/right-hand settings
-- Add a small graphical settings panel
-- Add tests for helper functions
-- Improve packaging and installation flow
+* Add demo screenshots and GIF previews
+* Add calibration mode
+* Add mute/unmute gesture
+* Add left-hand/right-hand settings
+* Add a small graphical settings panel
+* Add tests for helper functions
+* Improve packaging and installation flow
 
 ## Credits
 
@@ -174,52 +174,5 @@ This project was inspired by beginner-friendly hand tracking and computer vision
 
 Mohammad Azimi
 
-- GitHub: [mohammad-azimi](https://github.com/mohammad-azimi)
-- Portfolio: [mohammad-azimi.github.io](https://mohammad-azimi.github.io/)
-=======
-Volume Hand Control
-
-Overview
-
-Welcome to the Volume Hand Control project! This innovative application utilizes hand tracking to control volume levels in real-time, offering an intuitive interface for users. By leveraging advanced techniques in computer vision and machine learning, this project transforms your hand gestures into commands, allowing for seamless interaction with audio devices.
-
-Features
-
-Hand Tracking: Accurately detects and tracks hand landmarks using MediaPipe, ensuring responsiveness and precision.
-
-Gesture Recognition: Customize your hand gestures to control volume levels, making it user-friendly and adaptable to individual preferences.
-
-Real-Time Feedback: The application provides instant visual feedback, displaying hand positions and volume levels on-screen.
-
-Easy Integration: Designed to be easily integrated into existing audio applications or devices.
-
-Technologies Used
-
-Python: The primary programming language for this project.
-
-OpenCV: Utilized for image processing and real-time video capture.
-
-MediaPipe: A powerful library for hand tracking and landmark detection.
-
-Mathematics: Employed for calculating distances between hand landmarks.
-
-Getting Started
-
-To run the Volume Hand Control application:
-
-1. Navigate to the project directory:
-
-cd Volume-Hand-Control
-
-2. Install the required libraries:
-
-pip install opencv-python mediapipe
-
-3. Run the application:
-
-python VolumeHandControl.py
-
-Inspiration
-
-This project was developed with the invaluable guidance of https://www.youtube.com/c/MurtazasWorkshop, a fantastic resource for learning about robotics and AI. Their tutorials and insights have greatly influenced the development of this application.
->>>>>>> 65d80db3f411d32d23bc873e4978526fbc2ef1ab
+* GitHub: [mohammad-azimi](https://github.com/mohammad-azimi)
+* Portfolio: [mohammad-azimi.github.io](https://mohammad-azimi.github.io/)
