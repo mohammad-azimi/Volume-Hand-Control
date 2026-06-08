@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Gesture Volume Control
 
 A real-time computer vision project that lets you control the Windows system volume using hand gestures.
